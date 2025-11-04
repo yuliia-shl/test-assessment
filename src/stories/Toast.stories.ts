@@ -3,10 +3,10 @@ import { fn } from 'storybook/test';
 import Toast from '../components/Toast/Toast';
 
 const meta = {
-  title: 'Example/Toast',
+  title: 'Example/Feedback',
   component: Toast,
   parameters: {
-    layout: 'centered',
+    layout: 'padded',
   },
   tags: ['autodocs'],
   args: { onClose: fn() },
