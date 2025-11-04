@@ -1,0 +1,43 @@
+:root {
+  --font-family: sans-serif;
+  --main: #323f47;
+  --main-text: #2f2f2f;
+  --placeholder: #656565;
+  --background: #f0eff4;
+  --main-white: #ffffffea;
+  --error: #ef5050;
+  --input-color: #cf560046;
+  --input-color-focus: #cf5600;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--main);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--main-white);
+  padding: 10px 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,17 +1,12 @@
-
-import './App.css'
+import './App.css';
+import Input from './components/Input/Input';
 
 function App() {
-
-
   return (
     <>
-      <div>
-        
-        Click on the Vite and React logos to learn more
-      </div>
+      <Input />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
