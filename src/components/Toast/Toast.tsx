@@ -2,10 +2,15 @@ import { useEffect, useState } from 'react';
 import s from './Toast.module.css';
 
 export interface ToastProps {
+  /** What is the type of toast? */
   toastType?: 'success' | 'error' | 'normal';
+  /** Toast message */
   message: string;
+  /** Duration of the toast in milliseconds */
   duration?: number;
+  /** Should toast have close button? */
   closeBtn?: boolean;
+  /** Optional callback when toast is closed */
   onClose?: () => void; // колбек для закриття
 }
 
