@@ -5,9 +5,9 @@ import eyeOffIcon from '../../assets/icons/eye-off.svg';
 
 export interface InputProps {
   /** What is the type of input? */
-  inputType?: 'text' | 'password' | 'number';
+  inputType: 'text' | 'password' | 'number';
   /** Input contents */
-  placeholder?: 'Email' | 'Password' | 'Age';
+  placeholder: 'Email' | 'Password' | 'Age';
   /** Should input be clearable */
   clearable?: boolean;
   /** Optional event handler */

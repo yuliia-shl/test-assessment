@@ -3,9 +3,10 @@
   --main: #323f47;
   --main-text: #2f2f2f;
   --placeholder: #656565;
-  --background: #f0eff4;
+  --background: #acabae;
   --main-white: #ffffffea;
-  --error: #ef5050;
+  --success: #57c55b;
+  --error: #ef6d6d;
   --input-color: #cf560046;
   --input-color-focus: #cf5600;
 }
@@ -40,4 +41,8 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
